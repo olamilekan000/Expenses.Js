@@ -8,6 +8,6 @@ var expenseSchema = new Schema({
   	year: Number
 });
 
-var expenseModel = mongoose.Model('Expenses', expenseSchema);
+var expenseModel = mongoose.model('Expenses', expenseSchema);
 
 module.exports = expenseModel;

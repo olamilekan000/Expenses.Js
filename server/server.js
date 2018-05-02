@@ -3,7 +3,7 @@ var router = require('./routes/routes.js')
 var path = require('path');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds211440.mlab.com:11440/saitama')
+mongoose.connect('mongodb:// user:pawd@ds211440.mlab.com:11440/saitama')
 
 
 const app = express()
